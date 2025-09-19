@@ -1,16 +1,19 @@
-HELP.md
-build/
-!**/src/main/**
-!**/src/test/**
-
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### Gradle ###
-.gradle
+# Gradle
+.gradle/
+build/
+gradlew
+gradlew.bat
+gradle/   # папка wrapper
 
-### Logs ###
+# Logs
 *.log
+
+# Сохраняем только исходники
+!**/src/main/**
+!**/src/test/**
